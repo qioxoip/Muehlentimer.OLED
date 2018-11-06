@@ -6,7 +6,7 @@
 #include <EEPROM.h>                 //includes the EEPROM library
 
 
-#define OLED_RESET 4 // not used / nicht genutzt bei diesem Display
+#define OLED_RESET 4 // not ued / nicht genutzt bei diesem Display
 Adafruit_SSD1306 display(OLED_RESET);
 
 const int optoOne = 12;   //specifies pin number for optocoupler 1
